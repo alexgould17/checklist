@@ -1,0 +1,26 @@
+Checklist View Mockup
+--------------------------------------------
+| Day, Month Date Year                   * |
+|------------------------------------------|
+| # First do-once item                     |
+| # Second do-once item                    |
+| # First all-day item                     |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                       +  |
+--------------------------------------------
+
+* = dropdown menu with "edit list, hide/show completed" options
+# = checkboxes for list items. clicking an unchecked box should mark the item as completed, clicking a checked box should bring up a small prompt asking the user if they're sure they want to mark the item as not completed
++ = button to add an item to the list. should bring up a prompt that has, in basic mode, a text box to add the item and add/cancel buttons. An expandable section can cover other options if needed to change from the default.
