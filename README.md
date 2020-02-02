@@ -12,7 +12,7 @@ I want the checklist program to be a program that allows me to record tasks & go
 - List of lists (add & remove lists from here)
 
 ### Objects
-- ToDoList (contains ToDoItems)
-- ToDoItem (belongs to a ToDoList, is done?, creation date, completion date, recurring?, completion type (do you do this once or keep doing it all day?), order on list)
+- ToDoList (contains ToDoItems, is completed?, creation timestamp, completion timestamp)
+- ToDoItem (belongs to a ToDoList, is completed?, creation timestamp, completion timestamp, recurring?, completion type (do you do this once or keep doing it all day?), order on list)
 
 ## Technologies Used

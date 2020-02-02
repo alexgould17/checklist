@@ -20,7 +20,6 @@
 |                                          |
 |                                       +  |
 --------------------------------------------
-
 * = dropdown menu with "edit list, hide/show completed" options
 # = checkboxes for list items. clicking an unchecked box should mark the item as completed, clicking a checked box should bring up a small prompt asking the user if they're sure they want to mark the item as not completed
 + = button to add an item to the list. should bring up a prompt that has, in basic mode, a text box for the item's description and add/cancel buttons. An expandable section can cover other options if needed to change from the default.
@@ -47,10 +46,9 @@
 |                                          |
 |  [-2-]    [-3-]                          |
 --------------------------------------------
-
 * = dropdown menu
 $ = edit item button
-% = checkbox for selecting items to delete
+% = checkbox for selecting items to delete (visually different from the item completed checkbox)
 [-1-] = button to delete selected items. should bring up a popup dialog when clicked confirming whether the user wants to delete the selected items (give a count of the items about to be deleted).
 [-2-] = button to delete the whole list. should bring up a popup dialog when clicked confirming whether the user wants to delete the whole list.
 [-3-] = button to return to close editing mode & return to list view
@@ -58,24 +56,24 @@ $ = edit item button
 ### List of Lists View Mockup ###
 --------------------------------------------
 | Day, Month Date Year                   * |
-|------------------------------------------|
-| First list                               |
-| Second list                              |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                       +  |
+|------------------------------------------|----------
+| First list                    |  Filter  |   Sort  |
+| Second list                   |----------|---------|
+|                               |  Cat 1   | @ Opt 1 |
+|                               | % Opt 1  | @ Opt 2 |
+|                               | % Opt 2  |         |
+|                               |  Cat 2   |         |
+|                               | % Opt 1  |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |          |         |
+|                               |       +  |         |
 --------------------------------------------
-* = dropdown menu with "Filter", "Sort" options
+* = dropdown menu with "Filter", "Sort" options. "Filter" should bring up a pane from the right with different categories to filter by checkbox. Checkbox should be the same type as the Edit List right-aligned checkboxes. "Sort" should bring up a pane the same size in the same place as "Filter", but with radio buttons to choose the sorting preference.
 + = button to add a list. should bring up a prompt that has, in basic mode, a text box for the list title, a date selector to specify the day it's attached to, and add/cancel buttons. An expandable section can cover other options if needed to change from the default.
